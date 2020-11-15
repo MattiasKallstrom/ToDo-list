@@ -1,0 +1,104 @@
+
+body {
+    background: #fff;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+  }
+  .container {
+    display: block;
+    width: 600px;
+    margin: 100px auto 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li * {
+    float: left;
+  }
+  li, h3 {
+    clear:both;
+    list-style:none;
+  }
+  input, button {
+    outline: solid 1px black;
+  }
+  button {
+    background: none;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 100px;
+    margin: 10px 5px 5px 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+  button:hover {
+    color: #333;
+  }
+ 
+  h3,
+  label[for='add-item'] {
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 3px solid #333;
+    padding: 30px 0 10px;
+    margin: 10px;
+    text-transform: uppercase;
+  }
+  input[type="text"] {
+    margin: 10px;
+    font-size: 16px;
+    height: 18px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+
+  label[for='add-item'] {
+    display: block;
+    margin:  10 10 10 10px;
+  }
+  input#add-item {
+    float: left;
+    
+  }
+  button:hover {
+    color: rgb(102, 15, 102);
+  }
+  
+ 
+  li {
+    overflow: hidden;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #eee;
+  }
+ 
+  li > label {
+    font-size: 20px;
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+  }
+  li >  input[type="text"] {
+    width: 226px;
+  }
+   .delete:hover {
+    color: #CF2323;
+  }
+  
+  ul li input[type=text] {
+    display:none;
+  }
+  
+  ul li.editText input[type=text] {
+    display:block;
+  }
+  
+  ul li.editText label {
+    display:none;
+  }
